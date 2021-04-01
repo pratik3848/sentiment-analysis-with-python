@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <title>SENTIMENT</title>
+<style>
+      body{
+        background-image: url('https://wallpaperaccess.com/full/983279.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover; 
+
+      }
+
+      input[type=button], input[type=submit], input[type=reset] {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+     }
+    </style>
+</head>
+<body>
+     <br>
+     <br>
+     <br>
+<form name="usercsv" action="/csv" method="POST" enctype="multipart/form-data">
+     <center><label style="color:white;font-size:30px;font-family:georgia,garamond,serif;font-style:bold;">Upload the CSV file  </label></center><br>
+     <center><input type="file" name="usercsv" ></center><br>
+     <center><input type="submit" value="Upload" size="50"></center><br>
+     <center><h4 style="color:red;font-size:20px;font-family:verdana;font-style:bold;">{{nocsv}}</h4></center>
+     <center><h4 style="color:red;font-size:20px;font-family:verdana;font-style:bold;">{{wrongformat}}</h4></center>
+     <center><h4 style="color:green;font-size:20px;font-family:verdana;font-style:bold;">{{uploaded}}</h4></center><br><br>
+</form>
+
+<form name="userentity" action="/entities" method="POST">
+     <center><label style="color:white;font-size:30px;font-family:georgia,garamond,serif;font-style:bold;">Enter the entities </label></center><br>
+     <center><input type="text" name="userentity" size="50"></center><br>
+     <center><input type="submit" value="submit" size="50"></center><br>
+     <center><h4 style="color:red;font-size:20px;font-family:verdana;font-style:bold;">{{no}}</h4></center>
+     <center><h4 style="color:red;font-size:20px;font-family:verdana;font-style:bold;">{{comma}}</h4></center>
+       <center><h4 style="color:yellow;font-size:20px;font-family:verdana;font-style:bold;">{{yourEntity}}</h4></center><br>
+</form>
+<form name="getSentiment" action="/getSentiment" method="POST">
+     <center><input type="submit" value="Get Sentiment" size="100"></center><br>
+      <center><h4 style="color:red;font-size:20px;font-family:verdana;font-style:bold;">{{nothing}}</h4></center>
+     <center><h4 style="color:white;font-size:20px;font-family:verdana;font-style:bold;" >{{final_result}}</h4></center>
+     <center><h4 style="color:red;font-size:20px;font-family:verdana;font-style:bold;" >{{final_result_no}}</h4></center>
+</form>
+</body>
+
+
+          
+
+
+
+</html>
