@@ -93,3 +93,7 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 Project Link: [https://github.com/prashanti-ps/SentimentAnalysisWPython](https://github.com/prashanti-ps/SentimentAnalysisWPython)
 
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[product-screenshot]: images/screenshot.png
+
