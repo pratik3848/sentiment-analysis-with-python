@@ -6,7 +6,7 @@
   <h3 align="center">Sentiment Analysis With Python</h3>
 
   <p align="center">
-    An application to know the sentiiment of any sentence!
+    An application to know the sentiment of any sentence!
   </p>
 </p>
 
