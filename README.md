@@ -56,7 +56,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-* [Pyhton for Data Science](https://www.datacamp.com)
+* [Python for Data Science](https://www.datacamp.com)
 * [Flask](https://www.tutorialspoint.com/flask)
 * [Sentiment Analysis](https://www.datacamp.com)
 
