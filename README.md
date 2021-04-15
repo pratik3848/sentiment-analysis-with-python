@@ -45,23 +45,25 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+People use sentences to express their feelings, some may be sarcastic, some may be positive, some of them can be negative as well as neutral. I found it interesting to develop a tool which can figure out the type of sentence and here we are!
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* To apply python sentiment analysis cncept in real life
+* To learn how python libraries contribute in sentiment analysis
+* To understand the concept and usage of Flask in application
+* To ease the process of analyzing entity wise sentiment from huge number of senetences which is manually unfeasible
+* Not the least, to work upon data apply the concepts of python for data science
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Of course, there is much more to dive deep in sentiment analysis as well as data world. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this project!
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Pyhton for Data Science](https://www.datacamp.com)
+* [Flask](https://www.tutorialspoint.com/flask)
+* [Sentiment Analysis](https://www.datacamp.com)
 
 
 
