@@ -90,10 +90,7 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 <!-- CONTACT -->
-## Contact
-Project Link: [https://github.com/prashanti-ps/SentimentAnalysisWPython](https://github.com/prashanti-ps/SentimentAnalysisWPython)
 
-<!-- MARKDOWN LINKS & IMAGES -->
 
 [product-screenshot]: images/screenshot.png
 
